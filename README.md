@@ -1,7 +1,7 @@
 # SolDrip - Auto-Compounding SOL Faucet On Solana
 
 <p align="center">
-  <img src="https://i.ibb.co/rHBkXyg/soldrip-logo.png" alt="SolDrip Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/SolDrip-S/SolDrip/main/assets/soldrip-logo.png" alt="SolDrip Logo" width="200"/>
   <br>
   <em>"HODL to Earn" - The First Real-time Optimized SOL Dividend Token on Solana</em>
 </p>
@@ -19,7 +19,7 @@
 ## Overview
 
 <p align="center">
-  <img src="https://i.ibb.co/10S0Lvk/soldrip-banner.png" alt="SolDrip Banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/SolDrip-S/SolDrip/main/assets/soldrip-banner.png" alt="SolDrip Banner" width="100%"/>
 </p>
 
 SolDrip is the first Solana token with real-time slippage optimization that automatically converts 5% of each transaction tax into SOL cash flow, precisely distributed to token holders every 5 minutes. Our innovative technology ensures you receive your SOL dividends directly to your wallet without staking requirements.
