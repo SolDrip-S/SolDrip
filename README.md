@@ -18,6 +18,10 @@
 
 ## Overview
 
+<p align="center">
+  <img src="assets/soldrip-banner.png" alt="SolDrip Banner" width="100%"/>
+</p>
+
 SolDrip is the first Solana token with real-time slippage optimization that automatically converts 5% of each transaction tax into SOL cash flow, precisely distributed to token holders every 5 minutes. Our innovative technology ensures you receive your SOL dividends directly to your wallet without staking requirements.
 
 ## Key Features
