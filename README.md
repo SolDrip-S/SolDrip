@@ -1,7 +1,7 @@
 # SolDrip - Auto-Compounding SOL Faucet On Solana
 
 <p align="center">
-  <img src="assets/soldrip-logo.svg" alt="SolDrip Logo" width="200"/>
+  <img src="assets/soldrip-logo.png" alt="SolDrip Logo" width="200"/>
   <br>
   <em>"HODL to Earn" - The First Real-time Optimized SOL Dividend Token on Solana</em>
 </p>
