@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Save SolDrip Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            color: #3B82F6;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px dashed #ccc;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3B82F6;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .note {
+            background-color: #fff8e1;
+            padding: 10px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Save SolDrip Images for GitHub</h1>
+    
+    <div class="note">
+        <strong>注意：</strong> assets文件夹已被重新创建。请按照以下步骤将您的图片保存到正确的位置。
+    </div>
+    
+    <div class="container">
+        <h2>Step 1: Save the Logo Image</h2>
+        
+        <div class="step">
+            <p>将您的Logo图片放在下面的区域，然后：</p>
+            <ol>
+                <li>右键点击您的Logo图片</li>
+                <li>选择"另存为..."或"Save Image As..."</li>
+                <li>确保保存为 <code>soldrip-logo.png</code></li>
+                <li>保存到项目的 <code>assets</code> 文件夹中</li>
+            </ol>
+            
+            <div class="image-container">
+                <p><strong>Logo Image:</strong></p>
+                <p>在这里放置您的Logo图片</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Step 2: Save the Banner Image</h2>
+        
+        <div class="step">
+            <p>将您的Banner图片放在下面的区域，然后：</p>
+            <ol>
+                <li>右键点击您的Banner图片</li>
+                <li>选择"另存为..."或"Save Image As..."</li>
+                <li>确保保存为 <code>soldrip-banner.png</code></li>
+                <li>保存到项目的 <code>assets</code> 文件夹中</li>
+            </ol>
+            
+            <div class="image-container">
+                <p><strong>Banner Image:</strong></p>
+                <p>在这里放置您的Banner图片</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Step 3: 保存流程图</h2>
+        
+        <div class="step">
+            <p>您还需要保存流程图：</p>
+            <ol>
+                <li>右键点击您的流程图</li>
+                <li>选择"另存为..."或"Save Image As..."</li>
+                <li>确保保存为 <code>soldrip-flow.svg</code></li>
+                <li>保存到项目的 <code>assets</code> 文件夹中</li>
+            </ol>
+            
+            <div class="image-container">
+                <p><strong>Flow Diagram:</strong></p>
+                <p>在这里放置您的流程图</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Step 4: Update Your GitHub Repository</h2>
+        
+        <div class="step">
+            <p>保存所有图片后，将它们推送到GitHub：</p>
+            <ol>
+                <li>打开终端，进入项目目录</li>
+                <li>运行: <code>git add assets/</code></li>
+                <li>运行: <code>git commit -m "Add SolDrip logo, banner and flow images"</code></li>
+                <li>运行: <code>git push origin main</code></li>
+            </ol>
+            
+            <p>或者直接通过GitHub网站上传：</p>
+            <a href="https://github.com/SolDrip-S/SolDrip/upload/main/assets" class="button" target="_blank">
+                前往GitHub上传页面
+            </a>
+        </div>
+        
+        <div class="note">
+            <p><strong>重要提示：</strong> 上传后，请确保您的README.md文件中的图片引用是正确的：</p>
+            <ul>
+                <li>Logo: <code>assets/soldrip-logo.png</code></li>
+                <li>Banner: <code>assets/soldrip-banner.png</code></li>
+                <li>Flow Diagram: <code>assets/soldrip-flow.svg</code></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 
