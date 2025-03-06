@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SolDrip Banner Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f5f5f5;
+        }
+        .banner {
+            width: 1200px;
+            height: 300px;
+            background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        .banner:before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+        .banner:after {
+            content: "";
+            position: absolute;
+            bottom: -80px;
+            right: -80px;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 60px;
+            margin: 0 0 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-size: 24px;
+            max-width: 800px;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        .coins {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #FFD700;
+            border-radius: 50%;
+            animation: fall 3s infinite linear;
+            opacity: 0.7;
+        }
+        @keyframes fall {
+            0% {
+                transform: translateY(-100px);
+            }
+            100% {
+                transform: translateY(400px);
+            }
+        }
+        .instructions {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h3>如何保存Banner图片:</h3>
+        <ol>
+            <li>右键点击下方的banner图片</li>
+            <li>选择"另存为..."或"Save Image As..."</li>
+            <li>保存为 <code>soldrip-banner.png</code> 到assets文件夹</li>
+        </ol>
+    </div>
+    <div class="banner" id="banner">
+        <h1>SolDrip</h1>
+        <p>每5分钟自动向您的钱包发送SOL分红的第一个真实时间优化代币</p>
+        <!-- Animated coins -->
+        <div class="coins" style="left: 20%; animation-delay: 0s;"></div>
+        <div class="coins" style="left: 35%; animation-delay: 0.5s;"></div>
+        <div class="coins" style="left: 50%; animation-delay: 1s;"></div>
+        <div class="coins" style="left: 65%; animation-delay: 1.5s;"></div>
+        <div class="coins" style="left: 80%; animation-delay: 2s;"></div>
+    </div>
+
+    <script>
+        // 脚本可以添加更多动态元素
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Banner ready to save!');
+        });
+    </script>
+</body>
+</html> 
