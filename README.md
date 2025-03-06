@@ -132,9 +132,7 @@ SolDrip prioritizes security through:
 
 ## Community
 
-- [Twitter](https://twitter.com/SolDrip)
-- [Telegram](https://t.me/SolDripOfficial)
-- [Discord](https://discord.gg/soldrip)
+- [Twitter](https://x.com/SolDrip_)
 
 ## License
 [MIT License](LICENSE)
