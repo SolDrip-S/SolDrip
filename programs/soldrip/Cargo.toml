@@ -1,0 +1,27 @@
+[package]
+name = "soldrip"
+version = "0.1.0"
+edition = "2021"
+description = "SolDrip - Auto-Compounding SOL Faucet On Solana"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+solana-program = "1.16.0"
+thiserror = "1.0.40"
+spl-token = { version = "3.5.0", features = ["no-entrypoint"] }
+spl-associated-token-account = { version = "1.1.3", features = ["no-entrypoint"] }
+borsh = "0.10.3"
+borsh-derive = "0.10.3"
+
+[dev-dependencies]
+solana-program-test = "1.16.0"
+solana-sdk = "1.16.0"
